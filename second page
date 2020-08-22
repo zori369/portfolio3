@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body 
+{ 
+height:100%;
+background-image:linear-gradient(#355c7d, #6c5b7b, #c06c84);
+background-repeat: repeat-x;
+}
+h1   
+{
+font-size: 600%; 
+color: white; 
+text-align: center;
+font-family:'Brush Script MT';
+text-shadow: 2px 2px gray;
+}
+a { text-decoration: none; }
+.button {
+  display: block;
+  border-radius: 15px;
+  border: 2px solid white;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 5% auto;
+  cursor: pointer;
+  background-color: #5a4c67;
+}
+.button:hover {
+  background-color: white;
+  color: #5a4c67;
+}
+</style>
+</head>
+
+<title>
+Sudoku
+</title>
+
+<body>
+
+<div>
+<h1> How good are you? </h1>
+</div>
+<a href="file:3.html">
+<button class="button">Easy</button>
+</a>
+<a href="file: 3.html">
+<button class="button">Medium</button>
+</a>
+<a href="file: 3.html">
+<button class="button">Expert</button>
+</a>
+
+</body>
+</html>
